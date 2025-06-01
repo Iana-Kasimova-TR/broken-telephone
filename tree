@@ -1,0 +1,7 @@
+// Tree Visualization
+digraph {
+	rankdir=TB
+	node [fillcolor=lightblue shape=circle style=filled]
+	edge [color=gray50]
+	0 [label=ROOT fillcolor=lightgreen]
+}

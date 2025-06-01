@@ -1,0 +1,23 @@
+// Tree Visualization
+digraph {
+	rankdir=TB
+	node [fillcolor=lightblue shape=circle style=filled]
+	edge [color=gray50]
+	0 [label=ROOT fillcolor=lightgreen]
+	"0_0" [label=a fillcolor=lightblue]
+	"0_0_0" [label=b fillcolor=lightblue]
+	"0_0_0_0" [label=a fillcolor=lightpink]
+	"0_0_0_0_0" [label=c fillcolor=lightpink]
+	"0_0_0_0" -> "0_0_0_0_0"
+	"0_0_0" -> "0_0_0_0"
+	"0_0" -> "0_0_0"
+	0 -> "0_0"
+	"0_1" [label=c fillcolor=lightblue]
+	"0_1_0" [label=a fillcolor=lightblue]
+	"0_1_0_0" [label=b fillcolor=lightblue]
+	"0_1_0_0_0" [label=a fillcolor=lightpink]
+	"0_1_0_0" -> "0_1_0_0_0"
+	"0_1_0" -> "0_1_0_0"
+	"0_1" -> "0_1_0"
+	0 -> "0_1"
+}
